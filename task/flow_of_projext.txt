@@ -1,0 +1,32 @@
+Flow of the project :
+=> There are two classes 1) Class event 
+                         2) class scheduling
+1) Class event                          
+=>In the class EVENT we have methods such as => initializing method                                 
+                                             => age calculating method 
+                                             => adding participates
+
+=>In adding participates methods we have created a hash named as participants
+=> Additionally we have used getter method to get input from the user
+
+2) Class scheduling
+=>In the class SCHEDULING we have methods such as => initializing empty hash                                 
+                                                  => add event
+                                                  => list event
+                                                  => event with maximum participants
+                                                  => event with minimum participants
+                                                  => delete event
+=> we have created an empty array of participants to add hash 
+=>created object of object of EVENT class and added to hash with event as key 
+=> converted start and end date time into DateTime object 
+
+=>sprttime method : Date.strptime is used to parse a string into a Date object based on a specified format. 
+                    dob = "11/01/1990", this line will convert it into a Date object representing January 11, 1990.
+
+=>(<<)     : is used to append element in the array
+=> []      : is constructor
+=>.value   : it will show us an array of all the values 
+=> .max_by : is an enumerator method in Ruby.lement with the maximum value based on the criteria you define
+=> .reject! : is a destructive method that iterates through the hash and removes any entries (key-value pairs) for which the block returns true.
+=> The rescue block is triggered if an exception is raised.n this case, the exception will be an ArgumentError (which is raised if the date string
+    cannot be parsed according to the format you specified).
