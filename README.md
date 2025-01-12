@@ -9,8 +9,11 @@ It is a consol based application in ruby.It is a  mini event scheduling system f
 3.End Date and Time: A DateTime object representing when the event ends.
 
 4.articipants: An array of hashes containing participant details:
-  a. name: Name of the participant (string).
-  b. DOB: Date of birth of the participant (string in DD/MM/YYYY format).
-  c. age: This must be calculated dynamically based on the DOB and the current date.
+
+    a. name: Name of the participant (string).
   
-5. Venue: A string specifying the event's location.  
+    b. DOB: Date of birth of the participant (string in DD/MM/YYYY format).
+  
+    c. age: This must be calculated dynamically based on the DOB and the current date.
+  
+5. Venue: A string specifying the event's location.
